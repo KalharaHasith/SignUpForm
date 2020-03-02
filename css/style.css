@@ -180,3 +180,17 @@ a {
 .overlay-left {
     transform: translateX(-20%);
 }
+
+/* animation */
+
+/* move signIn form to right */
+.container.right-pannel-active .sign-in-container {
+    transform: translateX(100%);
+}
+
+/* .container.right-panel-active .sign-up-container {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: show 0.6s;
+} */
